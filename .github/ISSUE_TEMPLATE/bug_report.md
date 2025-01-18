@@ -23,7 +23,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/jackc/pgx/v4"
+	"github.com/jackc/pgx/v5"
 )
 
 func main() {
@@ -36,6 +36,8 @@ func main() {
 	// Your code here...
 }
 ```
+
+Please run your example with the race detector enabled. For example, `go run -race main.go` or `go test -race`.
 
 **Expected behavior**
 A clear and concise description of what you expected to happen.
